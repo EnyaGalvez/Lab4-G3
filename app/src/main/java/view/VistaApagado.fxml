@@ -1,0 +1,6 @@
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlModos"
+      spacing="10" alignment="CENTER">
+    <children>
+    
+    </children>
+</VBox>

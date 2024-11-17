@@ -30,4 +30,9 @@ public class ControlerModos {
     public void cambiarVistaClima() {
         controlRadioC.cargarVista("VistaClima.fxml");
     }
+
+    @FXML
+    public void cambiarVistaClimaInterior() {
+        controlRadioC.cargarVista("VistaClima.fxml");
+    }
 }

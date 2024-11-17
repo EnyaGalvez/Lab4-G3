@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlRadioMod" spacing="10" alignment="CENTER">
+    <Button fx:id="bandToggle" text="Cambiar Banda" onAction="#changeBand" />
+    <TextField fx:id="frequencyDisplay" editable="false" />
+    <Button fx:id="saveStationButton" text="Guardar Emisora" onAction="#saveStation" />
+    <ComboBox fx:id="loadStationDropdown" promptText="Seleccionar Emisora" onAction="#loadStation" />
+    <ListView fx:id="stationListDisplay" />
+</VBox>

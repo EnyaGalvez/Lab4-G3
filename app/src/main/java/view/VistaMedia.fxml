@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlMedia" spacing="10" alignment="CENTER">
+    <ComboBox fx:id="mediaTypeSelector" promptText="Tipo de Medio" onAction="#selectMediaType" />
+    <ComboBox fx:id="playlistDropdown" promptText="Lista de Reproducción" />
+    <ComboBox fx:id="appSelector" promptText="Aplicación de Música" />
+    <Label fx:id="songInfoLabel" text="Información de la Canción" />
+    <Button fx:id="playPauseButton" text="Reproducir/Pausar" onAction="#playPauseMedia" />
+    <Button fx:id="nextButton" text="Siguiente" onAction="#nextSong" />
+    <Button fx:id="previousButton" text="Anterior" onAction="#previousSong" />
+</VBox>

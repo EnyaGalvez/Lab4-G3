@@ -36,16 +36,8 @@ public class ControlClima extends ControlerModos {
         }
     }
 
-    // Método para establecer 'clima' desde otra clase
+    // Metodo para establecer 'clima' desde otra clase
     public void setClima(Clima clima) {
         this.clima = clima;
-    }
-
-    @Override
-    public void mostrarContenido() {
-    }
-
-    @Override
-    public void ocultarContenido() {
     }
 }

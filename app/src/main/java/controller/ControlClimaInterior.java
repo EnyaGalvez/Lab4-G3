@@ -1,9 +1,9 @@
 package controller;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
-import javafx.scene.control.Button;
 import models.ClimaInterior;
 
 public class ControlClimaInterior extends ControlerModos {
@@ -80,13 +80,5 @@ public class ControlClimaInterior extends ControlerModos {
     // Método para establecer 'climaInterior' desde otra clase 
     public void setClimaInterior(ClimaInterior climaInterior) {
         this.climaInterior = climaInterior;
-    }
-
-    @Override
-    public void mostrarContenido() {
-    }
-
-    @Override
-    public void ocultarContenido() {
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlTelefono" spacing="10" alignment="CENTER">
+    <Button fx:id="connectToggleButton" text="Conectar/Desconectar" onAction="#toggleConnection" />
+    <ListView fx:id="contactsList" />
+    <Button fx:id="callButton" text="Llamar" onAction="#callContact" />
+    <Button fx:id="endCallButton" text="Finalizar Llamada" onAction="#endCall" />
+    <Button fx:id="holdCallButton" text="En Espera" onAction="#holdCall" />
+</VBox>
