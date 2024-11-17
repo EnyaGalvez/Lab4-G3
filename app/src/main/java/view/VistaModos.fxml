@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlModos"
+      spacing="10" alignment="CENTER">
+    <children>
+        <Button text="Modo Radio" onAction="#cambiarVistaRadioMod" prefWidth="200" />
+        <Button text="Modo Media" onAction="#cambiarVistaMedia" prefWidth="200" />
+        <Button text="Modo Teléfono" onAction="#cambiarVistaTelefono" prefWidth="200" />
+        <Button text="Modo Clima" onAction="#cambiarVistaClima" prefWidth="200" />
+    </children>
+</VBox>
