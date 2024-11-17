@@ -1,9 +1,9 @@
+import controller.ControlRadioC;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import controllers.ControlRadioC;
 
 /**
  * Clase principal que inicia la aplicación JavaFX del Radio Mercedes

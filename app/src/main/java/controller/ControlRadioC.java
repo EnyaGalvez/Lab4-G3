@@ -31,7 +31,7 @@ public class ControlRadioC {
     private TabPane tabPane; // Contenedor para las vistas de cada modo
 
     @FXML
-    public void initializarComponentes() {
+    public void inicializarComponentes() {
         if (radioC != null && radioC.getEstado()) {
             cargarVista("VistaModos.fxml"); // Carga la vista de modos si el radio está encendido
         } else {
